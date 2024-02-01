@@ -1,6 +1,7 @@
 ## ECS 193 Advice
 
-Some helpful advice for your project
+A quick listing of advice points to help you with your capstone project
+
 
 ### Project Accounts:
 
