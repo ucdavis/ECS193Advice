@@ -1,22 +1,22 @@
-## ECS 193 Advice
+# ECS 193 Advice
 
-A quick listing of advice points to help you with your capstone project
+Advice points to help you with your capstone project
 
 
-### Project Accounts:
+## Project Accounts:
 
 - When establishing cloud or other online services use a customer provided name and email address for the account. 
 - In the initial stages of development, it's okay to use a personal account for testing out a concept; however, the production environment should only be associated with project accounts.
 - This allows you to cleanly step away from the project after it ends and the next developer to quickly access the production resources.
 
 
-### Data Access:
+## Data Access:
 
 - Access to data or services might take time due to an approval process, so determine what is required for the project and submit access requests promptly.
 - Determine which data fields you will use as key items to connect data between sources
 
 
-### Authentication and Authorization:
+## Authentication and Authorization:
 
 - Ask about the current identity services used for authentication and authoriziation by the customer
 - Check for an existing roles database or directory service (e.g. Active Directory)
@@ -25,7 +25,7 @@ A quick listing of advice points to help you with your capstone project
 - Determine the role verification process utilized during app usage and what happens if users access content not assigned to them
 
 
-### APIs:
+## APIs:
 
 - Inquire about existing APIs. The company might already have what you need for the project so you don't have to recreate the wheel
 - Ask which type of API they provide; REST, Websocket, SOAP...
@@ -36,7 +36,7 @@ A quick listing of advice points to help you with your capstone project
 - Know the expiration settings for tokens used in automated processes
 
 
-### Web Servers:
+## Web Servers:
 
 - Protect sites with certs and reroute port 80 traffic to port 443
 - Site processes should not be run by root or admin accounts
@@ -44,7 +44,7 @@ A quick listing of advice points to help you with your capstone project
 - Use input sanitization on all web forms
 
 
-### Database Servers:
+## Database Servers:
 
 - Place all database servers behind a firewall and only allow access from required app servers
 - Relational database tables should utilize primary keys
@@ -52,13 +52,13 @@ A quick listing of advice points to help you with your capstone project
 - Document each database, application account, stored procedures, backups, and maintenance plans
 
 
-### Cloud Data Storage:
+## Cloud Data Storage:
 
 - Establish billing alerts to prevent over-charges
 - Periodically check share permissions and collaboration settings
 
 
-### Documentation:
+## Documentation:
 
 - Inform the customer of the location of all documentation
 - Grant the customer access to all code repos
