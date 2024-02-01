@@ -51,9 +51,10 @@ Some helpful advice for your project
 - Document each database, application account, stored procedures, backups, and maintenance plans
 
 
-### Data Storage:
+### Cloud Data Storage:
 
-- blah blah blah
+- Establish billing alerts to prevent over-charges
+- Periodically check share permissions and collaboration settings
 
 
 ### Documentation:
