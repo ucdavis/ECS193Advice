@@ -5,7 +5,7 @@ Advice points to help you with your capstone project
 
 ## Project Accounts:
 
-- When establishing cloud or other online services use a customer provided name and email address for the account. 
+- When establishing cloud or other online services, use a customer provided name and email address for the account. 
 - In the initial stages of development, it's okay to use a personal account for testing out a concept; however, the production environment should only be associated with project accounts.
 - This allows you to cleanly step away from the project after it ends and the next developer to quickly access the production resources.
 
